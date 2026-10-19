@@ -1,0 +1,37 @@
+============================================================
+CARPETA DE FOTOS - PORTAFOLIO DOUGLAS ESTEBAN ESQUIVEL
+============================================================
+
+INSTRUCCIONES PARA AGREGAR TUS FOTOS:
+-------------------------------------
+
+1. Coloca tus fotos en esta carpeta.
+
+2. Nombra los archivos de la galería como:
+   - foto-1.jpg
+   - foto-2.jpg
+   - foto-3.jpg
+   - foto-4.jpg
+   - foto-5.jpg
+   - foto-6.jpg
+
+3. Para tu foto de perfil (la que aparece en la sección
+   "Sobre Mí" y en el Hero), nombra el archivo:
+   - perfil.jpg
+
+4. Formatos permitidos: JPG, PNG, GIF, WEBP, SVG
+
+5. Tamaño máximo recomendado: 2MB por foto
+
+6. Las fotos se cargarán automáticamente en la galería
+   de la página web. Si una foto no existe, se mostrará
+   un placeholder elegante en su lugar.
+
+CONSEJOS:
+---------
+- Usa fotos de alta calidad pero comprimidas para web.
+- Recuerda que la foto de perfil debe ser cuadrada o
+  vertical (formato 4:5 recomendado).
+- Para la galería, formato horizontal (4:3) recomendado.
+
+============================================================
