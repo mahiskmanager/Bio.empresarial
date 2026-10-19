@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Douglas Esteban Esquivel - Desarrollador de Software y Bases de Datos. Portafolio profesional, proyectos y contacto.">
+    <meta name="keywords" content="Douglas Esquivel, desarrollador, programador, base de datos, portafolio, Guatemala">
+    <meta name="author" content="Douglas Esteban Esquivel">
+    <title>Douglas Esteban Esquivel | Desarrollador de Software</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Chakra+Petch:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4/fonts/remixicon.css">
+</head>
+<body>
+
+    <!-- ============================================ -->
+    <!-- PRELOADER / PANTALLA DE CARGA                -->
+    <!-- ============================================ -->
+    <div id="preloader" class="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">
+                <span class="preloader-letter">D</span>
+                <span class="preloader-letter">E</span>
+                <span class="preloader-letter">E</span>
+            </div>
+            <div class="preloader-bar">
+                <div class="preloader-progress" id="preloaderProgress"></div>
+            </div>
+            <p class="preloader-text">Cargando experiencia...</p>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- NAVEGACIÓN PRINCIPAL                          -->
+    <!-- ============================================ -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="#inicio" class="nav-logo">
+                <span class="logo-icon">D'</span>
+                <span class="logo-text">ouglas</span>
+            </a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li class="nav-item"><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li class="nav-item"><a href="#experiencia" class="nav-link">Experiencia</a></li>
+                <li class="nav-item"><a href="#galeria" class="nav-link">Galería</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+                    <i class="ri-moon-line"></i>
+                </button>
+                <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN HERO / INICIO                         -->
+    <!-- ============================================ -->
+    <section id="inicio" class="hero section">
+        <div class="hero-bg">
+            <div class="hero-grid"></div>
+            <div class="hero-glow hero-glow-1"></div>
+            <div class="hero-glow hero-glow-2"></div>
+        </div>
+
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    <span>Disponible para proyectos</span>
+                </div>
+
+                <h1 class="hero-title">
+                    <span class="hero-line">Hola, soy</span>
+                    <span class="hero-line hero-name">Douglas Esteban</span>
+                    <span class="hero-line hero-lastname">Esquivel</span>
+                </h1>
+
+                <div class="hero-typed">
+                    <span class="typed-prefix">Soy </span>
+                    <span class="typed-text" id="typedText"></span>
+                    <span class="typed-cursor">|</span>
+                </div>
+
+                <p class="hero-description">
+                    Desarrollador de software con conocimiento empírico en programación y gestión de bases de datos.
+                    Más de 5 proyectos elaborados que demuestran mi pasión por crear soluciones tecnológicas
+                    que marcan la diferencia.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#proyectos" class="btn btn-primary">
+                        <span>Ver Proyectos</span>
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                    <a href="#contacto" class="btn btn-secondary">
+                        <span>Contáctame</span>
+                        <i class="ri-mail-line"></i>
+                    </a>
+                </div>
+
+                <div class="hero-social">
+                    <a href="https://youtube.com/@ftismael?si=GP2YUON5eLshXhvY" target="_blank" rel="noopener" class="social-link" aria-label="YouTube">
+                        <i class="ri-youtube-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/ismael_e12?psln=Zjd5N2doYjR4MnVk" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://www.facebook.com/share/1BUmVay3So/" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/douglas-esteban-esquivel-a81710262?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+                        <i class="ri-linkedin-fill"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-image-frame">
+                    <div class="hero-image-placeholder">
+                        <div class="placeholder-avatar">
+                            <span class="avatar-initial">D</span>
+                        </div>
+                        <p class="placeholder-text">Agrega tu foto en la carpeta /fotos</p>
+                    </div>
+                    <div class="frame-corner frame-corner-tl"></div>
+                    <div class="frame-corner frame-corner-tr"></div>
+                    <div class="frame-corner frame-corner-bl"></div>
+                    <div class="frame-corner frame-corner-br"></div>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="5">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">Proyectos</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="19">0</span>
+                        <span class="stat-label">Años</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="100">0</span>
+                        <span class="stat-suffix">%</span>
+                        <span class="stat-label">Dedicación</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-scroll">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span class="scroll-text">Desplázate</span>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- FRASE MOTIVACIONAL / CITA                    -->
+    <!-- ============================================ -->
+    <section class="quote-section">
+        <div class="container">
+            <blockquote class="quote-block">
+                <i class="ri-double-quotes-l quote-icon"></i>
+                <p class="quote-text">
+                    "Aprende, estudia, crea. Todos tenemos un propósito: haz lo que te inspira
+                    sin dañar a terceros."
+                </p>
+                <cite class="quote-author">— Douglas Esteban Esquivel</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN SOBRE MÍ                             -->
+    <!-- ============================================ -->
+    <section id="sobre-mi" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Conóceme</span>
+                <h2 class="section-title">Sobre Mí</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="about-image-wrapper">
+                        <div class="about-image-placeholder">
+                            <i class="ri-user-3-line"></i>
+                            <p>Tu foto aquí</p>
+                        </div>
+                        <div class="about-image-overlay"></div>
+                    </div>
+                    <div class="about-experience-badge">
+                        <span class="badge-number">5+</span>
+                        <span class="badge-text">Proyectos<br>Completados</span>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <h3 class="about-heading">
+                        Desarrollador apasionado por la tecnología y el aprendizaje continuo
+                    </h3>
+                    <p class="about-text">
+                        Mi nombre es Douglas Esteban Esquivel, tengo 19 años y soy un desarrollador
+                        con conocimiento empírico en programación y gestión de bases de datos. Mi
+                        trayectoria se ha construido sobre la base del autoaprendizaje, la práctica
+                        constante y la pasión por crear soluciones tecnológicas que resuelvan
+                        problemas reales.
+                    </p>
+                    <p class="about-text">
+                        Actualmente formo parte de <strong>D'ouglas Company</strong>, donde aplico
+                        mis conocimientos en el desarrollo de proyectos de software. He completado
+                        más de cinco proyectos que abarcan desde aplicaciones web hasta sistemas de
+                        gestión de bases de datos, cada uno representando un nuevo reto y una
+                        oportunidad de crecimiento.
+                    </p>
+
+                    <div class="about-info-grid">
+                        <div class="info-item">
+                            <i class="ri-user-line"></i>
+                            <div class="info-content">
+                                <span class="info-label">Nombre</span>
+                                <span class="info-value">Douglas Esteban Esquivel</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="ri-calendar-line"></i>
+                            <div class="info-content">
+                                <span class="info-label">Edad</span>
+                                <span class="info-value">19 años</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="ri-mail-line"></i>
+                            <div class="info-content">
+                                <span class="info-label">Email</span>
+                                <span class="info-value">duglaspro7@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="ri-phone-line"></i>
+                            <div class="info-content">
+                                <span class="info-label">Teléfono</span>
+                                <span class="info-value">3987 5180</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="ri-briefcase-line"></i>
+                            <div class="info-content">
+                                <span class="info-label">Empresa</span>
+                                <span class="info-value">D'ouglas Company</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="ri-map-pin-line"></i>
+                            <div class="info-content">
+                                <span class="info-label">Ubicación</span>
+                                <span class="info-value">Guatemala</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-buttons">
+                        <a href="#contacto" class="btn btn-primary">
+                            <span>Trabajemos Juntos</span>
+                            <i class="ri-hand-heart-line"></i>
+                        </a>
+                        <a href="https://youtu.be/2eB6B6ZeOGA?si=-NYqDFnt4txBL5rL" target="_blank" rel="noopener" class="btn btn-secondary">
+                            <span>Ver Video</span>
+                            <i class="ri-play-circle-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN HABILIDADES                          -->
+    <!-- ============================================ -->
+    <section id="habilidades" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Mi expertise</span>
+                <h2 class="section-title">Habilidades</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">
+                    Conocimiento empírico desarrollado a través de proyectos reales y aprendizaje autodidacta.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i class="ri-code-s-slash-line"></i>
+                        Programación
+                    </h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Desarrollo Web Frontend</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Desarrollo Backend</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percent">82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i class="ri-database-2-line"></i>
+                        Bases de Datos
+                    </h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">MySQL</span>
+                                <span class="skill-percent">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Diseño de BD</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">SQL Avanzado</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Optimización de Consultas</span>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i class="ri-tools-line"></i>
+                        Herramientas y Más
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">API REST</span>
+                        <span class="skill-tag">JSON</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Windows Server</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">WordPress</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN PROYECTOS                            -->
+    <!-- ============================================ -->
+    <section id="proyectos" class="projects section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Mi trabajo</span>
+                <h2 class="section-title">Proyectos</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">
+                    Más de 5 proyectos elaborados que demuestran mi experiencia y capacidad.
+                </p>
+            </div>
+
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="todos">Todos</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="bd">Base de Datos</button>
+                <button class="filter-btn" data-filter="app">Aplicaciones</button>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <article class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="ri-global-line"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="Ver proyecto">
+                                <i class="ri-external-link-line"></i>
+                            </a>
+                            <a href="#" class="project-link" aria-label="Ver código">
+                                <i class="ri-github-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Desarrollo Web</span>
+                        <h3 class="project-title">Sistema de Gestión Empresarial</h3>
+                        <p class="project-description">
+                            Plataforma web completa para gestión de inventarios, ventas y reportes
+                            en tiempo real con panel de administración.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JS</span><span>MySQL</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="bd">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="ri-database-line"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="Ver proyecto">
+                                <i class="ri-external-link-line"></i>
+                            </a>
+                            <a href="#" class="project-link" aria-label="Ver código">
+                                <i class="ri-github-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Base de Datos</span>
+                        <h3 class="project-title">Diseño de BD para Clínica</h3>
+                        <p class="project-description">
+                            Modelo entidad-relación y base de datos normalizada para gestión de
+                            pacientes, citas médicas e historial clínico.
+                        </p>
+                        <div class="project-tags">
+                            <span>MySQL</span><span>SQL</span><span>ERD</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="app">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="ri-smartphone-line"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="Ver proyecto">
+                                <i class="ri-external-link-line"></i>
+                            </a>
+                            <a href="#" class="project-link" aria-label="Ver código">
+                                <i class="ri-github-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Aplicación</span>
+                        <h3 class="project-title">App de Tareas y Productividad</h3>
+                        <p class="project-description">
+                            Aplicación de gestión de tareas con recordatorios, categorías y
+                            sincronización de datos en la nube.
+                        </p>
+                        <div class="project-tags">
+                            <span>Python</span><span>Flask</span><span>SQLite</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="ri-shopping-cart-line"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="Ver proyecto">
+                                <i class="ri-external-link-line"></i>
+                            </a>
+                            <a href="#" class="project-link" aria-label="Ver código">
+                                <i class="ri-github-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">E-commerce</span>
+                        <h3 class="project-title">Tienda en Línea</h3>
+                        <p class="project-description">
+                            Plataforma de comercio electrónico con carrito de compras, pasarela de
+                            pagos y panel de administración de productos.
+                        </p>
+                        <div class="project-tags">
+                            <span>PHP</span><span>MySQL</span><span>Bootstrap</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="bd">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="ri-bar-chart-box-line"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="Ver proyecto">
+                                <i class="ri-external-link-line"></i>
+                            </a>
+                            <a href="#" class="project-link" aria-label="Ver código">
+                                <i class="ri-github-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Análisis de Datos</span>
+                        <h3 class="project-title">Sistema de Reportes</h3>
+                        <p class="project-description">
+                            Generador de reportes automatizados con visualización de datos y
+                            exportación a múltiples formatos.
+                        </p>
+                        <div class="project-tags">
+                            <span>Python</span><span>SQL</span><span>Charts</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="app">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="ri-chat-3-line"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="Ver proyecto">
+                                <i class="ri-external-link-line"></i>
+                            </a>
+                            <a href="#" class="project-link" aria-label="Ver código">
+                                <i class="ri-github-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Chat en Tiempo Real</span>
+                        <h3 class="project-title">Sistema de Mensajería</h3>
+                        <p class="project-description">
+                            Aplicación de chat en tiempo real con salas, mensajes privados y
+                            notificaciones push.
+                        </p>
+                        <div class="project-tags">
+                            <span>Node.js</span><span>WebSocket</span><span>MongoDB</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN EXPERIENCIA / TIMELINE               -->
+    <!-- ============================================ -->
+    <section id="experiencia" class="experience section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Mi trayectoria</span>
+                <h2 class="section-title">Experiencia</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Actualidad</span>
+                        <h3 class="timeline-title">Desarrollador de Software</h3>
+                        <span class="timeline-company">D'ouglas Company</span>
+                        <p class="timeline-description">
+                            Desarrollo de aplicaciones web y sistemas de gestión de bases de datos.
+                            Implementación de soluciones tecnológicas para clientes, desde el diseño
+                            de la arquitectura hasta el despliegue en producción.
+                        </p>
+                        <ul class="timeline-tasks">
+                            <li>Desarrollo de aplicaciones web full-stack</li>
+                            <li>Diseño y optimización de bases de datos</li>
+                            <li>Mantenimiento y mejora de sistemas existentes</li>
+                            <li>Creación de APIs y servicios REST</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 - 2025</span>
+                        <h3 class="timeline-title">Proyectos Independientes</h3>
+                        <span class="timeline-company">Freelance / Autodidacta</span>
+                        <p class="timeline-description">
+                            Desarrollo de más de 5 proyectos personales y para clientes locales,
+                            abarcando sistemas de gestión, tiendas en línea y aplicaciones de
+                            productividad. Aprendizaje continuo en nuevas tecnologías.
+                        </p>
+                        <ul class="timeline-tasks">
+                            <li>Más de 5 proyectos completados exitosamente</li>
+                            <li>Aprendizaje autodidacta de múltiples lenguajes</li>
+                            <li>Gestión de bases de datos relacionales</li>
+                            <li>Despliegue y configuración de servidores</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023</span>
+                        <h3 class="timeline-title">Inicio en la Programación</h3>
+                        <span class="timeline-company">Aprendizaje Empírico</span>
+                        <p class="timeline-description">
+                            Comienzo del viaje en el mundo de la programación mediante aprendizaje
+                            empírico. Primeros proyectos, experimentación con lenguajes y
+                            descubrimiento de la pasión por el desarrollo de software.
+                        </p>
+                        <ul class="timeline-tasks">
+                            <li>Primeros pasos en HTML, CSS y JavaScript</li>
+                            <li>Introducción a Python y lógica de programación</li>
+                            <li>Primer contacto con bases de datos SQL</li>
+                            <li>Desarrollo de proyectos personales básicos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN SERVICIOS                            -->
+    <!-- ============================================ -->
+    <section class="services section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Lo que ofrezco</span>
+                <h2 class="section-title">Servicios</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="ri-code-line"></i>
+                    </div>
+                    <h3 class="service-title">Desarrollo Web</h3>
+                    <p class="service-description">
+                        Creación de sitios web modernos, responsivos y optimizados para motores
+                        de búsqueda, desde landing pages hasta plataformas complejas.
+                    </p>
+                    <ul class="service-features">
+                        <li>Diseño responsivo</li>
+                        <li>Optimización SEO</li>
+                        <li>Velocidad de carga</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="ri-database-2-line"></i>
+                    </div>
+                    <h3 class="service-title">Bases de Datos</h3>
+                    <p class="service-description">
+                        Diseño, implementación y optimización de bases de datos relacionales.
+                        Modelado de datos, consultas avanzadas y migraciones.
+                    </p>
+                    <ul class="service-features">
+                        <li>Diseño ERD</li>
+                        <li>Normalización</li>
+                        <li>Optimización SQL</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="ri-apps-2-line"></i>
+                    </div>
+                    <h3 class="service-title">Aplicaciones</h3>
+                    <p class="service-description">
+                        Desarrollo de aplicaciones de escritorio y web a medida, adaptadas a
+                        las necesidades específicas de tu negocio o proyecto.
+                    </p>
+                    <ul class="service-features">
+                        <li>Aplicaciones a medida</li>
+                        <li>APIs RESTful</li>
+                        <li>Integraciones</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="ri-settings-3-line"></i>
+                    </div>
+                    <h3 class="service-title">Mantenimiento</h3>
+                    <p class="service-description">
+                        Soporte técnico, actualizaciones, corrección de errores y mejora
+                        continua de sistemas y aplicaciones existentes.
+                    </p>
+                    <ul class="service-features">
+                        <li>Soporte técnico</li>
+                        <li>Actualizaciones</li>
+                        <li>Seguridad</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN GALERÍA DE FOTOS                     -->
+    <!-- ============================================ -->
+    <section id="galeria" class="gallery section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Momentos</span>
+                <h2 class="section-title">Galería</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">
+                    Agrega tus fotos en la carpeta <code>/fotos</code> para que aparezcan aquí.
+                </p>
+            </div>
+
+            <div class="gallery-grid" id="galleryGrid">
+                <div class="gallery-item" data-index="1">
+                    <div class="gallery-placeholder">
+                        <i class="ri-image-line"></i>
+                        <span>foto-1.jpg</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="2">
+                    <div class="gallery-placeholder">
+                        <i class="ri-image-line"></i>
+                        <span>foto-2.jpg</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="3">
+                    <div class="gallery-placeholder">
+                        <i class="ri-image-line"></i>
+                        <span>foto-3.jpg</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="4">
+                    <div class="gallery-placeholder">
+                        <i class="ri-image-line"></i>
+                        <span>foto-4.jpg</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="5">
+                    <div class="gallery-placeholder">
+                        <i class="ri-image-line"></i>
+                        <span>foto-5.jpg</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="6">
+                    <div class="gallery-placeholder">
+                        <i class="ri-image-line"></i>
+                        <span>foto-6.jpg</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- LIGHTBOX PARA GALERÍA                        -->
+    <!-- ============================================ -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">
+            <i class="ri-close-line"></i>
+        </button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Anterior">
+            <i class="ri-arrow-left-s-line"></i>
+        </button>
+        <div class="lightbox-content">
+            <img src="" alt="Imagen de galería" id="lightboxImage">
+        </div>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Siguiente">
+            <i class="ri-arrow-right-s-line"></i>
+        </button>
+        <div class="lightbox-counter" id="lightboxCounter">1 / 6</div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN VIDEO                                -->
+    <!-- ============================================ -->
+    <section class="video-section section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Contenido</span>
+                <h2 class="section-title">Video Destacado</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="video-wrapper">
+                <div class="video-container">
+                    <iframe
+                        src="https://www.youtube.com/embed/2eB6B6ZeOGA"
+                        title="Video de Douglas Esteban Esquivel"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        loading="lazy">
+                    </iframe>
+                </div>
+                <div class="video-info">
+                    <h3>Conoce más sobre mi trabajo</h3>
+                    <p>
+                        En este video comparto detalles sobre mis proyectos, mi proceso de
+                        aprendizaje y la filosofía que guía mi trabajo: aprender, estudiar y
+                        crear sin dañar a terceros.
+                    </p>
+                    <a href="https://youtu.be/2eB6B6ZeOGA?si=-NYqDFnt4txBL5rL" target="_blank" rel="noopener" class="btn btn-primary">
+                        <span>Ver en YouTube</span>
+                        <i class="ri-youtube-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN CONTACTO                             -->
+    <!-- ============================================ -->
+    <section id="contacto" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Hablemos</span>
+                <h2 class="section-title">Contacto</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">
+                    ¿Tienes un proyecto en mente? ¡Contáctame y hagamos realidad tus ideas!
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3 class="contact-info-title">Información de Contacto</h3>
+                    <p class="contact-info-text">
+                        Estoy disponible para nuevos proyectos, colaboraciones y oportunidades
+                        de aprendizaje. No dudes en contactarme por cualquiera de estos medios.
+                    </p>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="ri-mail-line"></i>
+                        </div>
+                        <div class="contact-item-content">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:duglaspro7@gmail.com" class="contact-value">duglaspro7@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="ri-phone-line"></i>
+                        </div>
+                        <div class="contact-item-content">
+                            <span class="contact-label">Teléfono / WhatsApp</span>
+                            <a href="tel:+50239875180" class="contact-value">3987 5180</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="ri-briefcase-line"></i>
+                        </div>
+                        <div class="contact-item-content">
+                            <span class="contact-label">Empresa</span>
+                            <span class="contact-value">D'ouglas Company</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="ri-map-pin-line"></i>
+                        </div>
+                        <div class="contact-item-content">
+                            <span class="contact-label">Ubicación</span>
+                            <span class="contact-value">Guatemala, Centroamérica</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <h4 class="contact-social-title">Sígueme en redes</h4>
+                        <div class="contact-social-links">
+                            <a href="https://youtube.com/@ftismael?si=GP2YUON5eLshXhvY" target="_blank" rel="noopener" class="social-link social-youtube" aria-label="YouTube">
+                                <i class="ri-youtube-fill"></i>
+                                <span>YouTube</span>
+                            </a>
+                            <a href="https://www.instagram.com/ismael_e12?psln=Zjd5N2doYjR4MnVk" target="_blank" rel="noopener" class="social-link social-instagram" aria-label="Instagram">
+                                <i class="ri-instagram-line"></i>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="https://www.facebook.com/share/1BUmVay3So/" target="_blank" rel="noopener" class="social-link social-facebook" aria-label="Facebook">
+                                <i class="ri-facebook-fill"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/douglas-esteban-esquivel-a81710262?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" class="social-link social-linkedin" aria-label="LinkedIn">
+                                <i class="ri-linkedin-fill"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm" novalidate>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                                <span class="form-error" id="nombreError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                                <span class="form-error" id="emailError"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="asunto">Asunto</label>
+                            <input type="text" id="asunto" name="asunto" placeholder="¿En qué puedo ayudarte?" required>
+                            <span class="form-error" id="asuntoError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+                            <span class="form-error" id="mensajeError"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                            <span class="btn-text">Enviar Mensaje</span>
+                            <i class="ri-send-plane-line"></i>
+                            <span class="btn-loader"></span>
+                        </button>
+
+                        <div class="form-success" id="formSuccess">
+                            <i class="ri-checkbox-circle-line"></i>
+                            <p>¡Mensaje enviado con éxito! Te responderé pronto.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- FOOTER                                       -->
+    <!-- ============================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#inicio" class="footer-logo">
+                        <span class="logo-icon">D'</span>
+                        <span class="logo-text">ouglas</span>
+                    </a>
+                    <p class="footer-description">
+                        Desarrollador de software con pasión por crear soluciones tecnológicas
+                        que marcan la diferencia. Aprende, estudia, crea.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://youtube.com/@ftismael?si=GP2YUON5eLshXhvY" target="_blank" rel="noopener" aria-label="YouTube"><i class="ri-youtube-fill"></i></a>
+                        <a href="https://www.instagram.com/ismael_e12?psln=Zjd5N2doYjR4MnVk" target="_blank" rel="noopener" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+                        <a href="https://www.facebook.com/share/1BUmVay3So/" target="_blank" rel="noopener" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+                        <a href="https://www.linkedin.com/in/douglas-esteban-esquivel-a81710262?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Enlaces Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre-mi">Sobre Mí</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#experiencia">Experiencia</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Servicios</h4>
+                    <ul class="footer-links">
+                        <li><a href="#servicios">Desarrollo Web</a></li>
+                        <li><a href="#servicios">Bases de Datos</a></li>
+                        <li><a href="#servicios">Aplicaciones</a></li>
+                        <li><a href="#servicios">Mantenimiento</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Contacto</h4>
+                    <ul class="footer-contact-list">
+                        <li>
+                            <i class="ri-mail-line"></i>
+                            <a href="mailto:duglaspro7@gmail.com">duglaspro7@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="ri-phone-line"></i>
+                            <a href="tel:+50239875180">3987 5180</a>
+                        </li>
+                        <li>
+                            <i class="ri-briefcase-line"></i>
+                            <span>D'ouglas Company</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">
+                    &copy; <span id="currentYear"></span> Douglas Esteban Esquivel. Todos los derechos reservados.
+                </p>
+                <p class="footer-phrase">
+                    "Aprende, estudia, crea — todos tenemos un propósito."
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================ -->
+    <!-- BOTÓN VOLVER ARRIBA                          -->
+    <!-- ============================================ -->
+    <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+        <i class="ri-arrow-up-line"></i>
+    </button>
+
+    <!-- ============================================ -->
+    <!-- TOAST NOTIFICATIONS                          -->
+    <!-- ============================================ -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
